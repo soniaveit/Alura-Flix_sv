@@ -1,0 +1,23 @@
+.contenedor {
+    display: grid;
+    margin: 0 5%;
+
+}
+
+.nombreCategoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blanco);
+    font-size: clamp(1rem, 1.8vw, 1.7rem);
+    font-weight: bold;
+    width: 25%;
+    height: 3.5rem;
+    /* background-color: var(--frontend); */
+    border-radius: 10px;
+}
+
+.cardContenedor {
+    display: flex;
+    flex-wrap: wrap;
+}

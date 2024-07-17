@@ -1,0 +1,21 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 2.5rem;
+    background-color: var(--negro);
+    border-bottom: 4px solid var(--azul);
+    box-sizing: border-box;
+    /* box-shadow: 0 10px 15px 0 var(--sombra-boton); */
+}
+
+.logoContainer{
+    height: auto;
+    display: flex;
+    align-items: center;
+    /* background-color: var(--negro); */
+}
+
+.cabecera img {
+    align-self: start;
+}
